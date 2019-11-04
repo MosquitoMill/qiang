@@ -1,0 +1,24 @@
+
+// Fonts
+//@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+//引入iconfont项目图标库
+@import url("http://at.alicdn.com/t/font_382394_ljca4qgx2wpl23xr.css");
+
+.ql-editor{
+  min-height: 250px;
+}
+.iconfont {
+  font-size: inherit; // 或者 font-size: 1em;
+}
+
+//修正select组件在modal下选项错位
+.ivu-modal .ivu-form .ivu-select-dropdown{
+  top:auto !important;
+}
